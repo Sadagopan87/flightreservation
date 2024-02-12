@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test to search a flight for 3 passengers.",
+    "line": 1,
+    "id": "test-to-search-a-flight-for-3-passengers.",
+    "tags": [],
+    "uri": "BookingPageTest.feature",
+    "elements": [
+      {
+        "id": "test-to-search-a-flight-for-3-passengers.;test-to-search-a-flight-and-complete-all-the-stpes-then-navigate-till-the-login-page.",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Test to search a flight and complete all the stpes then navigate till the Login page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the Ryanair Website.",
+            "result": {
+              "status": "passed",
+              "duration": 32092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "Search a flight ticket from \"Madrid\" to \"Dublin\".",
+            "result": {
+              "status": "passed",
+              "duration": 10269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user Pick a date for travel then add 2 Adults and 1 children passenger and See the available flight using Search.",
+            "result": {
+              "status": "passed",
+              "duration": 17772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Select a inbound and outbound flight for the travel.",
+            "result": {
+              "status": "passed",
+              "duration": 28613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Select Fair type as Basic and Verify the selection.",
+            "result": {
+              "status": "passed",
+              "duration": 23297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Check the user able to see the passenger user form and entry columns for the added 3 passengers.",
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter the passenger details and click continue button.",
+            "result": {
+              "status": "passed",
+              "duration": 15159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Complete the seat selection and navigate in to baggage page.",
+            "result": {
+              "status": "passed",
+              "duration": 37416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Select Extra 20 kg for the two adult passenger and continue the Next screen.",
+            "result": {
+              "status": "passed",
+              "duration": 46828000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "A user Skip the Extra and transport page and continue to Final page.",
+            "result": {
+              "status": "passed",
+              "duration": 56663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The User should see the Login Popup.",
+            "result": {
+              "status": "passed",
+              "duration": 94874000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
